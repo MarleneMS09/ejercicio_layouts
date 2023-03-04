@@ -25,9 +25,15 @@
     margin-bottom: 1rem;
 }
 
-.sobre-nosotros {
+.sobre-nosotros_texto--destacado {
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
+
+
+.sobre_nosotros_imagen {
+    display:none;
+}
+
 }
 @media screen and (min-width: 1024px) {
     .sobre_nosotros {
@@ -47,4 +53,9 @@
     .sobre-nosotros__imagen {
         display: block;
     }
+}
+@media screen (min-width: 1024px) {
+ .sobre nosotros_imagen {
+    display:block; 
+ }
 }
